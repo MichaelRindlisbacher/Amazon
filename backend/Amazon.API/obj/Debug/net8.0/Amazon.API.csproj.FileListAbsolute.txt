@@ -65,3 +65,5 @@ C:\Users\mar38\OneDrive\Desktop\Amazon\backend\Amazon.API\obj\Debug\net8.0\refin
 C:\Users\mar38\OneDrive\Desktop\Amazon\backend\Amazon.API\obj\Debug\net8.0\Amazon.API.pdb
 C:\Users\mar38\OneDrive\Desktop\Amazon\backend\Amazon.API\obj\Debug\net8.0\Amazon.API.genruntimeconfig.cache
 C:\Users\mar38\OneDrive\Desktop\Amazon\backend\Amazon.API\obj\Debug\net8.0\ref\Amazon.API.dll
+C:\Users\mar38\OneDrive\Desktop\Amazon\backend\Amazon.API\obj\Debug\net8.0\Amazon.API.sourcelink.json
+C:\Users\mar38\OneDrive\Desktop\Amazon\backend\Amazon.API\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll

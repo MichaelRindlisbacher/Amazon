@@ -2,7 +2,7 @@
 
 namespace Amazon.API.Data
 {
-    public class Book
+    public class Book // Match the database exactly
     {
         [Key]
         public int BookID { get; set; }

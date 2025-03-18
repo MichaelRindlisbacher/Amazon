@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Y5ZQgAp+hAo=",
+  "dgSpecHash": "Kqjpf0juEPo=",
   "success": true,
   "projectFilePath": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\Amazon.API.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\mar38\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\mar38\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "C:\\Users\\mar38\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "C:\\Users\\mar38\\.nuget\\packages\\system.linq.dynamic.core\\1.6.0.2\\system.linq.dynamic.core.1.6.0.2.nupkg.sha512",
     "C:\\Users\\mar38\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
