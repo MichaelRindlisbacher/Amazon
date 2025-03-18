@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|c:\\users\\mar38\\onedrive\\desktop\\amazon\\backend\\amazon.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|solutionrelative:backend\\amazon.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|c:\\users\\mar38\\onedrive\\desktop\\amazon\\backend\\amazon.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|solutionrelative:backend\\amazon.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|c:\\users\\mar38\\onedrive\\desktop\\amazon\\backend\\amazon.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|solutionrelative:backend\\amazon.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|c:\\users\\mar38\\onedrive\\desktop\\amazon\\backend\\amazon.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|solutionrelative:backend\\amazon.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|c:\\users\\mar38\\onedrive\\desktop\\amazon\\backend\\amazon.api\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|c:\\users\\mar38\\onedrive\\desktop\\amazon\\backend\\amazon.api\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|solutionrelative:backend\\amazon.api\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|c:\\users\\mar38\\onedrive\\desktop\\amazon\\backend\\amazon.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|solutionrelative:backend\\amazon.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F43C1535-E80B-4888-B27C-855A7EDE682F}|backend\\Amazon.API\\Amazon.API.csproj|c:\\users\\mar38\\onedrive\\desktop\\amazon\\backend\\amazon.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +42,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "backend\\Amazon.API\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "backend\\Amazon.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-18T00:09:09.225Z",
               "EditorCaption": ""
@@ -61,26 +61,27 @@
               "RelativeDocumentMoniker": "backend\\Amazon.API\\Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\Controllers\\BookController.cs",
               "RelativeToolTip": "backend\\Amazon.API\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T21:26:20.734Z"
+              "WhenOpened": "2025-03-17T21:26:20.734Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\Program.cs",
               "RelativeDocumentMoniker": "backend\\Amazon.API\\Program.cs",
               "ToolTip": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\Program.cs",
               "RelativeToolTip": "backend\\Amazon.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBgAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T21:21:26.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "BookDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\Data\\BookDbContext.cs",
               "RelativeDocumentMoniker": "backend\\Amazon.API\\Data\\BookDbContext.cs",
@@ -88,17 +89,18 @@
               "RelativeToolTip": "backend\\Amazon.API\\Data\\BookDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T21:14:50.653Z"
+              "WhenOpened": "2025-03-17T21:14:50.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\Data\\Book.cs",
               "RelativeDocumentMoniker": "backend\\Amazon.API\\Data\\Book.cs",
               "ToolTip": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\Data\\Book.cs",
               "RelativeToolTip": "backend\\Amazon.API\\Data\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T21:07:54.32Z",
               "EditorCaption": ""
@@ -111,7 +113,7 @@
               "RelativeDocumentMoniker": "backend\\Amazon.API\\appsettings.json",
               "ToolTip": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\appsettings.json",
               "RelativeToolTip": "backend\\Amazon.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-17T21:04:49.913Z",
               "EditorCaption": ""
