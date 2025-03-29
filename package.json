@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@thumbmarkjs/thumbmarkjs": "^0.19.1",
+    "react-cookie-consent": "^9.0.0"
+  }
+}
