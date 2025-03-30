@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Book } from './types/Book';
+import { Book } from '../types/Book';
+import {useNavigate} from 'react-router-dom';
 
 function BookList({ selectedCategories }: { selectedCategories: string[] }) {
     console.log('BookList - selectedCategories:', selectedCategories); // ADD THIS LINE
@@ -9,6 +10,7 @@ function BookList({ selectedCategories }: { selectedCategories: string[] }) {
     const [totalItems, setTotalItems] = useState<number>(0); // Declared hook with default value
     const [totalPages, setTotalPages] = useState<number>(0);
     const [order, setOrder] = useState<string>('BookID');
+    const navigate = useNavigate();
 
     useEffect(() => {
         console.log(
@@ -74,6 +76,13 @@ function BookList({ selectedCategories }: { selectedCategories: string[] }) {
                                 <strong>Price:</strong> ${book.price}
                             </li>
                         </ul>
+
+                        <button
+                            className="btn btn-success"
+                            onClick={() => navigate(`/purchase/${book.title}/${book.bookID}/${book.price}`)}
+                        >
+                            Buy
+                        </button>
                     </div>
                 </div>
             ))}
