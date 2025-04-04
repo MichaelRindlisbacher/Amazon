@@ -1,7 +1,5 @@
-import { useNavigate, useParams } from 'react-router-dom';
-import WelcomeBand from '../components/WelcomeBand';
+import { useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
-import { useLayoutEffect } from 'react';
 import { CartItem } from '../types/CartItem';
 
 function CartPage() {
@@ -20,8 +18,18 @@ function CartPage() {
                             {cart.map((item: CartItem) => {
                                 return (
                                     <li key={item.bookID}>
-                                        {item.title} ({item.quantity}): ${((item.price) * (item.quantity)).toFixed(2)}
-                                        <button onClick={() => removeFromCart(item.bookID)} className="btn btn-danger">Remove</button>
+                                        {item.title} ({item.quantity}): $
+                                        {(item.price * item.quantity).toFixed(
+                                            2
+                                        )}
+                                        <button
+                                            onClick={() =>
+                                                removeFromCart(item.bookID)
+                                            }
+                                            className="btn btn-danger"
+                                        >
+                                            Remove
+                                        </button>
                                     </li>
                                 );
                             })}
