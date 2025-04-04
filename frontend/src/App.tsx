@@ -5,6 +5,7 @@ import PurchasesPage from './pages/PurchasesPage';
 import CartPage from './pages/CartPage';
 import { CartProvider } from './context/CartContext';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import AdminBooksPage from './pages/AdminBooksPage';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                             element={<PurchasesPage />}
                         />
                         <Route path="/cart" element={<CartPage />} />
+                        <Route path="/adminBooks" element={<AdminBooksPage />} />
                     </Routes>
                 </Router>
             </CartProvider>

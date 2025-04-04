@@ -14,16 +14,14 @@ builder.Services.AddDbContext<BookDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("BooksConnection")));
 
 builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowFrontend",
+    options.AddPolicy("AllowReactAppAmazon",
         policy =>
         {
             policy.WithOrigins("http://localhost:3000")
-                   .AllowCredentials()
-                   .AllowAnyHeader()
-                   .AllowAnyMethod();
-        });
-});
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+        }));
+
 
 var app = builder.Build();
 
@@ -37,7 +35,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 // Apply the CORS policy here, before authorization and mapping controllers
-app.UseCors("AllowFrontend");
+app.UseCors("AllowReactAppAmazon");
 
 app.UseAuthorization();
 
