@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kqjpf0juEPo=",
+  "dgSpecHash": "ih3nw7kVN6s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.API\\Amazon.API.csproj",
+  "projectFilePath": "C:\\Users\\mar38\\OneDrive\\Desktop\\Amazon\\backend\\Amazon.api\\Amazon.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mar38\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.14\\microsoft.data.sqlite.core.8.0.14.nupkg.sha512",
     "C:\\Users\\mar38\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.14\\microsoft.entityframeworkcore.8.0.14.nupkg.sha512",
